@@ -148,7 +148,7 @@ kind: Service
 metadata:
   name: frontend
 spec:
-  type: loadbalancer
+  type: LoadBalancer
   selector:
     app.kubernetes.io/name: frontend
   ports:
